@@ -1,0 +1,261 @@
+%-------------------------
+% Resume in Latex
+% Original Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-12pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.15in]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Alexander C. Kim} \\ \vspace{1pt}
+    \small 321-594-8873 $|$ \href{mailto:x@x.com}{{alexk2k05@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/alexander-c-kim}{{linkedin.com/in/alexander-c-kim}} $|$
+    \href{https://github.com/alex-chae-kim}{{github.com/alex-chae-kim}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Bachelor of Science in Computer Science}{May 2027}
+      {University of Florida - Honors Program - Herbert Wertheim College of Engineering}{GPA: 3.93}
+      \begin{itemize}[leftmargin=0in, label={}]
+        \small{\item{
+        \textbf{Relevant Coursework}{: Discrete Structures, Computer Organization, Computational Linear Algebra, Data Structures and Algorithms, Software Engineering, Sets and Logic} \\
+        }}
+    \end{itemize}
+  \resumeSubHeadingListEnd
+
+%-----------TECH SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0in, label={}]
+    \small{\item{
+     \textbf{Languages}{: C++, C\#, Java, Javascript, Python, R} \\
+     \textbf{Libraries}{: Unity(5+ years), Meshmixer, Rhino 3D, Blender} \\
+     \textbf{Technologies}{: Unity(5+ years), Meshmixer, Rhino 3D, Blender} \\
+
+    }}
+ \end{itemize}
+
+ %-----------Involvement-----------
+\section{Leadership}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Director of Recruitment} $|$ \emph{Dream Team Engineering}}{May 2024 -- Present}
+          \resumeItemListStart
+            \resumeItem{Organizing applications, scheduling interviews, and answering questions for over 350 applicants}
+            \resumeItem{Communicating effectively with over 40 captains and executive board members throughout the recruitment process}
+            \resumeItem{Planned 8 social, informational, and professional events which increased applications by over 40\%}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+ 
+%-----------EXPERIENCE-----------
+\section{Project Experience}
+  \resumeSubHeadingListStart
+
+    \resumeProjectHeading
+      {Infantile IV Procedure Simulator}{September 2023 -- Present}
+      \resumeItemListStart
+        \resumeItem{Captained a team of 9 to develop a mixed-reality simulator with Unity and SMMARTS SDK, improving pediatric procedural training}
+        \resumeItem{Collaborated with UF engineers and physicians to ensure simulation accuracy and calibration of physical instruments.}
+        \resumeItem{Implemented data handling systems for formatting and exporting procedural data, enabling performance tracking for trainees.}
+        \resumeItem{Presented trainer at ACS Surgeons  \& Engineers Summit (2025) to 130 international attendees.}
+      \resumeItemListEnd
+
+      \resumeProjectHeading
+      {Virtual Reality MRI}{January 2025 -- Present}
+      \resumeItemListStart
+        \resumeItem{Led a 3 person team to develop a VR MRI simulation in Unity for Meta Quest, designed to reduce patient anxiety through immersive education.}
+        \resumeItem{Built a customizable object-oriented framework supporting 350,000+ MRI scan combinations, enabling flexible research configurations.}
+        \resumeItem{Developed player locomotion, dynamic repositioning, and interaction mechanics for realistic clinical simulation.}
+      \resumeItemListEnd
+
+      \resumeProjectHeading
+      {CloudStep Engine}{May 2025 -- Present}
+      \resumeItemListStart
+        \resumeItem{Co-developed and implemented core engine architecture in C++ with EnTT for scalable entity-component systems}
+        \resumeItem{Built a custom 2D physics system and wrote unit and integration tests for reliability.}
+        \resumeItem{Integrated an ImGui powered editor interface, accelerating debugging and workflow efficiency by enabling real-time component editing.}
+        \resumeItem{Applied Git best practices for collaborative development and maintainability}
+      \resumeItemListEnd
+
+      \resumeProjectHeading
+      {GatorTrade}{May 2025 -- Present}
+      \resumeItemListStart
+        \resumeItem{Implemented secure Google OAuth2.0 authentication with Passport.js.}
+        \resumeItem{Developed robust Express.js backend with optimized MongoDB queries for CRUD operations, improving listing retrieval performance for users.}
+        \resumeItem{Integrated real-time messaging with Socket.io, enabling fast, reliable communication between buyers and sellers.}
+        \resumeItem{Conducted pre-deployment UX testing, iterative bug fixes, and deployed via Vercel and Render for scalable hosting.}
+      \resumeItemListEnd
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeProjectHeading
+      {Your Anime Link}{Nov. 2024}
+      \resumeItemListStart
+        \resumeItem{Created an anime recommending tool using C++ and Python for csv formatting}
+        \resumeItem{Developed an algorithm that recommended anime with 90\% satisfaction}
+        \resumeItem{Achieved consistent 1 second runtime searching over 24k anime with over 200k parameters}
+    \resumeItemListEnd
+
+    \resumeProjectHeading
+      {GatORGanizer}{Mar. 2024 -- Present}
+      \resumeItemListStart
+        \resumeItem{Harnessed ChatGPT 3.5 and the Instaloader API to summarize UF organization announcements}
+        \resumeItem{Utilized the Google Calendar API to incorporate club events into users' calendars}
+        \resumeItem{Stored club data in a SQL database}
+      \resumeItemListEnd
+
+      \resumeProjectHeading
+      {Tabbed In}{Oct. 2023}
+      \resumeItemListStart
+        \resumeItem{Developed an educational 2D game for children about the human body}
+        \resumeItem{Worked as the lead developer on a team of 4 to create the game using Unity from scratch in 24 hours}
+        \resumeItem{Achieved 1st place among over 80 participants}
+    \resumeItemListEnd
+
+    \resumeProjectHeading
+      {Jigsaw Jutsu}{Jan. 2023 -- Feb 2023}
+      \resumeItemListStart
+        \resumeItem{Developed a first-person 3D game using Unity about throwing puzzle pieces like ninja stars }
+        \resumeItem{Wrote all scripts required for game functionality as the only programmer on the team}
+        \resumeItem{Achieved 1st place at a statewide competition attended by over 2k students}
+    \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%
+%      \resumeProjectHeading
+%         {\textbf{Undergraduate Research Assistant} $|$ \emph{University of Florida Department of Chemistry}}{Jan 2024 -- May 2024}
+%          \resumeItemListStart
+%            \resumeItem{Investigated the kinetics and specificity of SARS-CoV-2 Nsp15 endonuclease}
+%            \resumeItem{Learned essential wet lab skills like gel electrophoresis, enzyme assay preparation, and scientific note-taking}
+%            \resumeItem{Collaborated with two other assistant researchers to triple productivity}
+%            \resumeItem{Presented research at the Spring Undergraduate Research Symposium}
+%          \resumeItemListEnd
+
+%-----------CERTS-----------
+\section{Certifications}
+\begin{itemize}[leftmargin=0in, label={}, itemsep=0pt, parsep=0pt]
+    \small{
+        \item{
+            \textbf{Introduction to Concurrency with C++ (CodeSignal)} 
+            \hfill {June 2025} \\
+        }
+    }
+\end{itemize}
+
+%-------------------------------------------
+\end{document}
