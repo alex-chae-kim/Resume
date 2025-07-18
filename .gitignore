@@ -1,0 +1,35 @@
+# Ignore LaTeX intermediate files
+*.aux
+*.log
+*.out
+*.toc
+*.lot
+*.lof
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex
+*.nav
+*.snm
+
+# Ignore generated PDF
+*.pdf
+
+# Ignore latexmk temporary files
+*.dvi
+*.ps
+*.xdv
+
+# Ignore backup files
+*~
+*.bak
+
+# Ignore VSCode settings (if using VSCode)
+.vscode/
+
+# Ignore build directories (if used)
+out/
+build/
+
+# Ignore macOS files
+.DS_Store
