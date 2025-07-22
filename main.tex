@@ -5,6 +5,7 @@
 % License : MIT
 %------------------------
 % !TEX root = /main.tex
+
 \documentclass[letterpaper,11pt]{article}
 
 \usepackage{latexsym}
@@ -53,7 +54,7 @@
 
 % Sections formatting
 \titleformat{\section}{
-  \vspace{-12pt}\scshape\raggedright\large
+  \vspace{-8pt}\scshape\raggedright\large
 }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
 % Ensure that generate pdf is machine readable/ATS parsable
@@ -70,8 +71,8 @@
 \newcommand{\resumeSubheading}[4]{
   \vspace{-2pt}\item
     \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2 \\
-      \textit{\small#3} & \textit{\small #4} \\
+      \small\textbf{#1} & #2 \\
+      {\small#3} & {\small #4} \\
     \end{tabular*}\vspace{-7pt}
 }
 
@@ -85,7 +86,7 @@
 \newcommand{\resumeProjectHeading}[2]{
     \item
     \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2 \\
+      \small\textbf{#1} & #2 \\
     \end{tabular*}\vspace{-7pt}
 }
 
@@ -119,11 +120,11 @@
 
 
 %-----------EDUCATION-----------
-\section{Education}
+\section{\textbf{Education}}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Bachelor of Science in Computer Science}{May 2027}
-      {University of Florida - Honors Program - Herbert Wertheim College of Engineering}{GPA: 3.93}
+      {Bachelor of Science in Computer Science, Minor in Mathematics}{May 2027}
+      {University of Florida - Honors Program - Herbert Wertheim College of Engineering}{GPA: 3.93/4.0}
       \begin{itemize}[leftmargin=0in, label={}]
         \small{\item{
         \textbf{Relevant Coursework}{: Discrete Structures, Computer Organization, Computational Linear Algebra, Data Structures and Algorithms, Software Engineering, Sets and Logic} \\
@@ -132,30 +133,30 @@
   \resumeSubHeadingListEnd
 
 %-----------TECH SKILLS-----------
-\section{Technical Skills}
+\section{\textbf{Technical Skills}}
  \begin{itemize}[leftmargin=0in, label={}]
     \small{\item{
-     \textbf{Languages}{: C++, C\#, Java, Javascript, Python, R} \\
-     \textbf{Libraries}{: Unity(5+ years), Meshmixer, Rhino 3D, Blender} \\
-     \textbf{Technologies}{: Unity(5+ years), Meshmixer, Rhino 3D, Blender} \\
+     \textbf{Languages}{: C++, C\#, Python, Java, Javascript} \\
+     \textbf{Libraries/Frameworks}{: React, Express.js, Passport.js, Socket.io, EnTT, ImGui} \\
+     \textbf{Technologies/Tools}{: Unity, Git, MongoDB, Vercel, Render, Matlab, Meshmixer} \\
 
     }}
  \end{itemize}
 
  %-----------Involvement-----------
-\section{Leadership}
-    \resumeSubHeadingListStart
-      \resumeProjectHeading
-          {\textbf{Director of Recruitment} $|$ \emph{Dream Team Engineering}}{May 2024 -- Present}
-          \resumeItemListStart
-            \resumeItem{Organizing applications, scheduling interviews, and answering questions for over 350 applicants}
-            \resumeItem{Communicating effectively with over 40 captains and executive board members throughout the recruitment process}
-            \resumeItem{Planned 8 social, informational, and professional events which increased applications by over 40\%}
-          \resumeItemListEnd
-    \resumeSubHeadingListEnd
+ \section{\textbf{Leadership}}
+ \resumeSubHeadingListStart
+   \resumeProjectHeading
+       {\textbf{Director of Recruitment} $|$ \emph{Dream Team Engineering}}{May 2024 -- Present}
+       \resumeItemListStart
+         \resumeItem{Organized applications, scheduled interviews, and answered questions for over 350 applicants.}
+         \resumeItem{Communicated effectively with over 40 captains and executive board members throughout the recruitment process.}
+         \resumeItem{Planned 8 social, informational, and professional events which increased applications by over 40\%}
+       \resumeItemListEnd
+ \resumeSubHeadingListEnd
  
 %-----------EXPERIENCE-----------
-\section{Project Experience}
+\section{\textbf{Project Experience}}
   \resumeSubHeadingListStart
 
     \resumeProjectHeading
@@ -247,7 +248,7 @@
 %          \resumeItemListEnd
 
 %-----------CERTS-----------
-\section{Certifications}
+\section{\textbf{Certifications}}
 \begin{itemize}[leftmargin=0in, label={}, itemsep=0pt, parsep=0pt]
     \small{
         \item{
